@@ -8,7 +8,7 @@ vue2 + vuex + element-ui + axios + echarts + vue-router + vue-admin-template + s
 
 # run
 
-git clone 
+git clone https://github.com/tanfujun/suigoushop.git
 
 npm install 
 
