@@ -5,6 +5,9 @@
     <breadcrumb class="breadcrumb-container" />
 
     <div class="right-menu">
+      <!-- <div class="name-container"></div> -->
+      <div class="name-container"><span class="name">{{name}},你好</span></div>
+      
       <el-dropdown class="avatar-container" trigger="click">
         <div class="avatar-wrapper">
           <img :src="avatar+'?imageView2/1/w/80/h/80'" class="user-avatar">
@@ -16,12 +19,12 @@
               Home
             </el-dropdown-item>
           </router-link>
-          <a target="_blank" href="https://github.com/PanJiaChen/vue-admin-template/">
-            <el-dropdown-item>Github</el-dropdown-item>
+          <a target="_blank" href="https://github.com/tanfujun">
+            <el-dropdown-item>Tan-Github</el-dropdown-item>
           </a>
-          <a target="_blank" href="https://panjiachen.github.io/vue-element-admin-site/#/">
+          <!-- <a target="_blank" href="https://panjiachen.github.io/vue-element-admin-site/#/">
             <el-dropdown-item>Docs</el-dropdown-item>
-          </a>
+          </a> -->
           <el-dropdown-item divided @click.native="logout">
             <span style="display:block;">Log Out</span>
           </el-dropdown-item>
@@ -44,7 +47,8 @@ export default {
   computed: {
     ...mapGetters([
       'sidebar',
-      'avatar'
+      'avatar',
+      'name'
     ])
   },
   methods: {
@@ -85,9 +89,20 @@ export default {
   }
 
   .right-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+      .name-container{
+        margin-right: 10px;
+        margin-top: 5px;
+        font-weight: bold;
+      }
     float: right;
+    // display: flex;
+    // align-items: center;
     height: 100%;
-    line-height: 50px;
+    // line-height: 50px;
 
     &:focus {
       outline: none;

@@ -59,7 +59,7 @@ export default {
   name: 'Login',
   data() {
     const validateUsername = (rule, value, callback) => {
-      if (!validUsername(value)) {
+      if (!this.loginForm.username) {
         callback(new Error('Please enter the correct user name'))
       } else {
         callback()
@@ -106,20 +106,21 @@ export default {
       })
     },
     handleLogin() {
-      this.$refs.loginForm.validate(valid => {
+      this.$refs.loginForm.validate(async (valid) => {
         if (valid) {
           this.loading = true
-          this.$store.dispatch('user/login', this.loginForm).then(() => {
+          try {
+            
+            await this.$store.dispatch('user/login', this.loginForm)
+            console.log(123);
             this.$router.push({ path: this.redirect || '/' })
             this.loading = false
-          }).catch(() => {
-            this.loading = false
-          })
-        } else {
-          console.log('error submit!!')
-          return false
-        }
-      })
+          } catch (error) {
+              this.loading = false
+              alert(error)
+          } 
+          
+      }})
     }
   }
 }

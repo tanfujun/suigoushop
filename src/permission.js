@@ -33,8 +33,9 @@ router.beforeEach(async(to, from, next) => {
         try {
           // get user info
           await store.dispatch('user/getInfo')
-
-          next()
+          //解决动态路由刷新页面空白情况
+          if (to.matched.length ===0) next({path: to.path})
+          else next()
         } catch (error) {
           // remove token and go to login page to re-login
           await store.dispatch('user/resetToken')
