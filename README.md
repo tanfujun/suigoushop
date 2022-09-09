@@ -4,5 +4,5 @@
 
 # 技术栈
 
-vue2 + vuex + element-ui + axios + echarts + vue-router + vue-element-admin
+vue2 + vuex + element-ui + axios + echarts + vue-router + vue-admin-template
 
