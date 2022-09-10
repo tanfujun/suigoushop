@@ -6,6 +6,10 @@
 
 vue2 + vuex + element-ui + axios + echarts + vue-router + vue-admin-template + scss
 
+# 预览地址
+
+http://39.108.172.120/#/dashboard
+
 # run
 
 git clone https://github.com/tanfujun/suigoushop.git
