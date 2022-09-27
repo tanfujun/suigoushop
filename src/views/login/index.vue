@@ -3,7 +3,7 @@
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
 
       <div class="title-container">
-        <h3 class="title">Login Form</h3>
+        <h3 class="title">随购商城后台管理系统</h3>
       </div>
 
       <el-form-item prop="username">
@@ -45,7 +45,7 @@
 
       <div class="tips">
         <span style="margin-right:20px;">username: admin</span>
-        <span> password: any</span>
+        <span> password: 111111</span>
       </div>
 
     </el-form>
@@ -74,8 +74,8 @@ export default {
     }
     return {
       loginForm: {
-        username: 'admin',
-        password: '111111'
+        username: '',
+        password: ''
       },
       loginRules: {
         username: [{ required: true, trigger: 'blur', validator: validateUsername }],
@@ -112,12 +112,10 @@ export default {
           try {
             
             await this.$store.dispatch('user/login', this.loginForm)
-            console.log(123);
             this.$router.push({ path: this.redirect || '/' })
             this.loading = false
           } catch (error) {
-              this.loading = false
-              alert(error)
+              this.loading = false 
           } 
           
       }})
