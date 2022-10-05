@@ -8,7 +8,7 @@ vue2 + vuex + element-ui + axios + echarts + vue-router + vue-admin-template + s
 
 # 预览地址
 
-<a href="http://39.108.172.120/#/dashboard" target="_blank">点我进行预览</a>
+<a href="http://39.108.172.120/#/dashboard" target="_blank" >点我进行预览</a>
 
 # 运行
 
