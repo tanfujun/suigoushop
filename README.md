@@ -24,13 +24,13 @@ npm run dev
 
 #### 一、登录界面
 
-![login](\image\login\login.png)
+![login](image\login\login.png)
 
 
 #### 二、首页界面
 
 
-![](\image\index\home.png)
+![](image\index\home.png)
 
 #### 三、权限模块
 
@@ -40,31 +40,31 @@ npm run dev
 
 用户管理页面：
 
-![user](E:\Vue项目\suigoushop\image\acl\user\user.png)
+![user](image\acl\user\user.png)
 
 
 
 添加用户：
 
-![addUser](E:\Vue项目\suigoushop\image\acl\user\addUser.png)
+![addUser](image\acl\user\addUser.png)
 
 
 
 删除用户：
 
-![delUser](E:\Vue项目\suigoushop\image\acl\user\delUser.png)
+![delUser](image\acl\user\delUser.png)
 
 
 
 修改用户：
 
-![updateUser](E:\Vue项目\suigoushop\image\acl\user\updateUser.png)
+![updateUser](image\acl\user\updateUser.png)
 
 
 
 分配用户角色：
 
-![setUser](E:\Vue项目\suigoushop\image\acl\user\setUser.png)
+![setUser](image\acl\user\setUser.png)
 
 
 
@@ -72,13 +72,13 @@ npm run dev
 
 角色管理页面：
 
-![role](E:\Vue项目\suigoushop\image\acl\role\role.png)
+![role](image\acl\role\role.png)
 
 
 
 添加角色：
 
-![addRole](E:\Vue项目\suigoushop\image\acl\role\addRole.png)
+![addRole](image\acl\role\addRole.png)
 
 
 
