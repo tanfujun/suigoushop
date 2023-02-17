@@ -24,13 +24,13 @@ npm run dev
 
 #### 一、登录界面
 
-![login](image\login\login.png)
+![login](image/login/login.png)
 
 
 #### 二、首页界面
 
 
-![](image\index\home.png)
+![](image/index/home.png)
 
 #### 三、权限模块
 
@@ -40,31 +40,31 @@ npm run dev
 
 用户管理页面：
 
-![user](image\acl\user\user.png)
+![user](image/acl/user/user.png)
 
 
 
 添加用户：
 
-![addUser](image\acl\user\addUser.png)
+![addUser](image/acl/user/addUser.png)
 
 
 
 删除用户：
 
-![delUser](image\acl\user\delUser.png)
+![delUser](image/acl/user/delUser.png)
 
 
 
 修改用户：
 
-![updateUser](image\acl\user\updateUser.png)
+![updateUser](image/acl/user/updateUser.png)
 
 
 
 分配用户角色：
 
-![setUser](image\acl\user\setUser.png)
+![setUser](image/acl/user/setUser.png)
 
 
 
@@ -72,43 +72,43 @@ npm run dev
 
 角色管理页面：
 
-![role](image\acl\role\role.png)
+![role](image/acl/role/role.png)
 
 
 
 添加角色：
 
-![addRole](image\acl\role\addRole.png)
+![addRole](image/acl/role/addRole.png)
 
 
 
 修改角色：
 
-![updateRole](E:\Vue项目\suigoushop\image\acl\role\updateRole.png)
+![updateRole](image/acl/role/updateRole.png)
 
 ##### 3.菜单管理
 
 菜单管理页面：
 
-![permission](E:\Vue项目\suigoushop\image\acl\permission\permission.png)
+![permission](image/acl/permission/permission.png)
 
 
 
 添加一级菜单以及确定权限值：
 
-![addV1](E:\Vue项目\suigoushop\image\acl\permission\addV1.png)
+![addV1](image/acl/permission/addV1.png)
 
 
 
 添加二级菜单以及确定权限值：
 
-![addV2](E:\Vue项目\suigoushop\image\acl\permission\addV2.png)
+![addV2](image/acl/permission/addV2.png)
 
 
 
 修改菜单信息：
 
-![updateMenu](E:\Vue项目\suigoushop\image\acl\permission\updateMenu.png)
+![updateMenu](image/acl/permission/updateMenu.png)
 
 
 
@@ -120,25 +120,25 @@ npm run dev
 
 品牌管理页面：
 
-![trademark](image\product\trademark\trademark.png)
+![trademark](image/product/trademark/trademark.png)
 
 
 
 添加品牌：
 
-![](E:\Vue项目\suigoushop\image\product\trademark\add.png)
+![](image/product/trademark/add.png)
 
 
 
 删除品牌：
 
-![del](E:\Vue项目\suigoushop\image\product\trademark\del.png)
+![del](image/product/trademark/del.png)
 
 
 
 修改品牌：
 
-![update](E:\Vue项目\suigoushop\image\product\trademark\update.png)
+![update](image/product/trademark/update.png)
 
 
 
@@ -146,19 +146,19 @@ npm run dev
 
 平台属性管理页面：
 
-![attr](/product/attr/attr.png)
+![attr](image/product/attr/attr.png)
 
 
 
 添加属性值：
 
-![](/product/attr/add.png)
+![](image/product/attr/add.png)
 
 
 
 修改属性值：
 
-![update](/product/attr/update.png)
+![update](image/product/attr/update.png)
 
 
 
@@ -168,31 +168,31 @@ npm run dev
 
 spu管理页面：
 
-![spu](/product/spu/spu.png)
+![spu](image/product/spu/spu.png)
 
 
 
 添加spu：
 
-![addSpu](/product/spu/addSpu.png)
+![addSpu](image/product/spu/addSpu.png)
 
 
 
 更新spu：
 
-![updateSpu](/product/spu/updateSpu.png)
+![updateSpu](image/product/spu/updateSpu.png)
 
 
 
 为某个spu添加sku：
 
-![addSku](/product/spu/addSku.png)
+![addSku](image/product/spu/addSku.png)
 
 
 
 查看某个spu的sku列表：
 
-![skuList](/product/spu/skuList.png)
+![skuList](image/product/spu/skuList.png)
 
 
 
@@ -202,5 +202,5 @@ spu管理页面：
 
 sku管理页面以及对应功能：
 
-![sku](/product/sku/sku.png)
+![sku](image/product/sku/sku.png)
 
