@@ -1,7 +1,3 @@
----
-typora-root-url: ./image
----
-
 ## suigoushop
 
 随购商城后台管理系统
@@ -28,7 +24,7 @@ npm run dev
 
 #### 一、登录界面
 
-![login](E:\Vue项目\suigoushop\image\login\login.png)
+![login](\image\login\login.png)
 
 
 #### 二、首页界面
