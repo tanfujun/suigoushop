@@ -30,7 +30,7 @@ npm run dev
 #### 二、首页界面
 
 
-![](image\index\home.png)
+![](\image\index\home.png)
 
 #### 三、权限模块
 
