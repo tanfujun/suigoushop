@@ -11,6 +11,8 @@ const data = Mock.mock({
   }]
 })
 
+// console.log(data)
+
 module.exports = [
   {
     url: '/vue-admin-template/table/list',

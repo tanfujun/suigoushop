@@ -56,6 +56,8 @@ const mutations = {
 
 //定义一个函数：两个数组进行对比，对比出当前用户到底显示哪些异步路由
 const computedAsyncRoutes = (asyncRoutes,routes)=>{
+
+  console.log('@',asyncRoutes);
   //过滤出当前用户【超级管理|普通员工】需要展示的异步路由
  return asyncRoutes.filter(item=>{
       //数组当中没有这个元素返回索引值-1，如果有这个元素返回的索引值一定不是-1 
@@ -92,6 +94,7 @@ const actions = {
         //获取用户信息:返回数据包含：用户名name、用户头像avatar、routes[返回的标志:不同的用户应该展示哪些菜单的标记]、roles（用户角色信息）、buttons【按钮的信息：按钮权限用的标记】
         const { data } = response;
         //vuex存储用户全部的信息
+        console.log(data.routes);
         commit('SET_USERINFO',data);
         let asyncRoutes111 = computedAsyncRoutes(cloneDeep(asyncRoutes),data.routes)
         console.log(asyncRoutes111);

@@ -7,7 +7,7 @@
       @click="addDialog"
       >添加</el-button
     >
-    <el-dialog title="收货地址" :visible.sync="addDialogFormVisible">
+    <el-dialog :title="tmform.tmName?'修改品牌':'添加品牌'" :visible.sync="addDialogFormVisible">
       <el-form :model="tmform" :rules="rules" ref="ruleForm">
         <el-form-item label="品牌名称" :label-width="formLabelWidth" prop="tmName">
           <el-input
